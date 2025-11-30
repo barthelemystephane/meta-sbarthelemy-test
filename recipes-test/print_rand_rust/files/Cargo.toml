@@ -1,0 +1,10 @@
+[package]
+name = "print_rand"
+version = "0.1.0"
+edition = "2018"
+license = "Apache-2.0"
+description = "print random application"
+repository = "https://github.com/barthelemystephane/print_rand_rs.git"
+
+[dependencies]
+rand = "0.7"

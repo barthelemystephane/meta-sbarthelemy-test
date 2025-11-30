@@ -1,0 +1,8 @@
+[Unit]
+Description=display infoip
+
+[Service]
+ExecStart=/usr/bin/infoip.sh
+
+[Install]
+WantedBy=multi-user.target

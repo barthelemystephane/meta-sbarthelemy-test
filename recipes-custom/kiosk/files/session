@@ -1,0 +1,6 @@
+#!/bin/sh
+xrandr -s 1024x768
+
+su -l -c "chromium kernel.org" kiosk &
+# We need to also launch a WM, or Chromium will be unhappy.
+exec matchbox-window-manager
